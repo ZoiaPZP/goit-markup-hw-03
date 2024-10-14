@@ -116,6 +116,9 @@ img {
   color: #404bbf;
 }
 /* ---------------------HERO------------------ */
+.hero-container {
+    padding: 188px 0 188px
+}
 
 .hero {
   background: #2e2f42;
@@ -149,6 +152,9 @@ img {
   min-width: 169px;
   display: block;
   margin: 0 auto;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
