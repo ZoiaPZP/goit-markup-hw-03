@@ -253,22 +253,31 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.team-item:first-child {
+  border-radius: 0 0 4px 4px;
+}
+
+.team-member-info {
+  padding: 32px 0;
+  text-align: center;
+}
+
 .team-member-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-member-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
+  text-align: center;
 }
 
 /* ---------------------------------- */
