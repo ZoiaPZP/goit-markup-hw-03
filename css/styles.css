@@ -324,6 +324,7 @@ img {
   justify-content: space-between;
   column-gap: 24px;
   row-gap: 48px;
+  width: 1128px; 
 }
 
 .portfolio-item {
